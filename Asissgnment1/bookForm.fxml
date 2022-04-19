@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Session11.Asissgnment1.BookFormController">
+   <children>
+      <Text layoutX="336.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a book" wrappingWidth="217.6708984375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sbookName" layoutX="50.0" layoutY="84.0" prefHeight="31.0" prefWidth="265.0" promptText="bookName" />
+      <TextField fx:id="spubliisherName" layoutX="50.0" layoutY="158.0" prefHeight="31.0" prefWidth="265.0" promptText="publiisherName" />
+      <TextField fx:id="spubliishYear" layoutX="486.0" layoutY="84.0" prefHeight="31.0" prefWidth="265.0" promptText="publiishYear" />
+      <TextField fx:id="sAuthor" layoutX="485.0" layoutY="158.0" prefHeight="31.0" prefWidth="265.0" promptText="Author" />
+      <TextField fx:id="sPrice" layoutX="486.0" layoutY="232.0" prefHeight="31.0" prefWidth="265.0" promptText="Price" />
+      <Button layoutX="142.0" layoutY="429.0" mnemonicParsing="false" onAction="#backBook" prefHeight="31.0" prefWidth="95.0" text="Cancel" />
+      <Button layoutX="612.0" layoutY="429.0" mnemonicParsing="false" onAction="#Submit" prefHeight="31.0" prefWidth="95.0" text="Submit" />
+   </children>
+</Pane>

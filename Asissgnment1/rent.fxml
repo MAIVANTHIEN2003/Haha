@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Session11.Asissgnment1.RentController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="673.0" prefWidth="934.0">
+         <children>
+            <TableView fx:id="tbRent" layoutX="39.0" layoutY="97.0" prefHeight="550.0" prefWidth="844.0">
+              <columns>
+                  <TableColumn fx:id="sQty" prefWidth="132.0" text="Qty" />
+                  <TableColumn fx:id="sStartDate" prefWidth="169.0" text="StartDate" />
+                  <TableColumn fx:id="sEndDate" prefWidth="124.0" text="EndDate" />
+                  <TableColumn fx:id="sUpdateDate" prefWidth="172.0" text="Update" />
+                  <TableColumn fx:id="sStatus" prefWidth="152.0" text="Status" />
+                  <TableColumn fx:id="sNote" prefWidth="94.0" text="Note" />
+              </columns>
+            </TableView>
+            <Button layoutX="39.0" layoutY="40.0" mnemonicParsing="false" onAction="#backHome" text="Cancel" />
+            <Button layoutX="793.0" layoutY="40.0" mnemonicParsing="false" onAction="#addRent" text="Add a rent" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

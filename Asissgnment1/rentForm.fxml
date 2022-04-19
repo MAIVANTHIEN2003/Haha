@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Session11.Asissgnment1.RentFormController">
+   <children>
+      <Text layoutX="294.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a bookrents" wrappingWidth="253.6708984375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sQty" layoutX="72.0" layoutY="98.0" prefHeight="31.0" prefWidth="215.0" promptText="Qty" />
+      <TextField fx:id="sStartDate" layoutX="72.0" layoutY="181.0" prefHeight="31.0" prefWidth="215.0" promptText="startDate" />
+      <TextField fx:id="sEndDate" layoutX="72.0" layoutY="269.0" prefHeight="31.0" prefWidth="215.0" promptText="endDate" />
+      <TextField fx:id="sUpdateDate" layoutX="502.0" layoutY="98.0" prefHeight="31.0" prefWidth="215.0" promptText="updateDate" />
+      <TextField fx:id="sStatus" layoutX="502.0" layoutY="181.0" prefHeight="31.0" prefWidth="215.0" promptText="Status" />
+      <TextField fx:id="sNote" layoutX="502.0" layoutY="269.0" prefHeight="31.0" prefWidth="215.0" promptText="note" />
+      <Button onAction="#backRent" layoutX="133.0" layoutY="424.0" mnemonicParsing="false" text="Cancel" />
+      <Button onAction="#Submit" layoutX="563.0" layoutY="424.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>

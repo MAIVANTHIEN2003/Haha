@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:controller="Session11.Asissgnment1.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#studentModule" layoutX="131.0" layoutY="136.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="122.0" text="Students" />
+      <Button onAction="#rentModule" layoutX="541.0" layoutY="146.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="122.0" text="Rents" />
+      <Button onAction="#bookModule" layoutX="335.0" layoutY="285.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="122.0" text="Books" />
+   </children>
+</Pane>

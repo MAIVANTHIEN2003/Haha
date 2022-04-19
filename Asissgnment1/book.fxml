@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="1098.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Session11.Asissgnment1.BookController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="758.0" prefWidth="1095.0">
+         <children>
+            <TableView fx:id="tbBook" layoutX="90.0" layoutY="115.0" prefHeight="503.0" prefWidth="931.0">
+              <columns>
+                <TableColumn fx:id="sbookName" prefWidth="192.0" text="bookName" />
+                  <TableColumn fx:id="spubliisherName" prefWidth="152.0" text="publiisherName" />
+                  <TableColumn fx:id="spubliishYear" prefWidth="184.0" text="publiishYear" />
+                  <TableColumn fx:id="sAuthor" prefWidth="169.0" text="Author" />
+                  <TableColumn fx:id="sPrice" prefWidth="157.0" text="Price" />
+                  <TableColumn fx:id="sId" prefWidth="75.0" text="Id" />
+              </columns>
+            </TableView>
+            <Button layoutX="90.0" layoutY="54.0" mnemonicParsing="false" onAction="#backHome" prefHeight="39.0" prefWidth="109.0" text="Cancel" />
+            <Button layoutX="826.0" layoutY="53.0" mnemonicParsing="false" onAction="#addBook" prefHeight="42.0" prefWidth="119.0" text="Add a book" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
